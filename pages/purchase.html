@@ -33,7 +33,13 @@
       </label>
 
       <div class="clearfix">
-        <button type="button" class="buy">Purchase</bucdtton>
+        <button type="submit" class="purchase" onclick="popup()"> <a href="buy.html">Purchase</a> </button>
+        <script>
+          function popup() {
+            alert("Purchase Successful")
+          }
+        </script>
+
         <button type="submit" class="cancel"><a href="../pages/buy.html">Cancel</a></button>
       </div>
 
